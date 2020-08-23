@@ -97,6 +97,45 @@
 	width: 40px;
 }
 
+
+
+.body_menu {
+
+
+}
+
+
+
 .body_texts {
 
+}
+
+.thumbnail {
+	margin: 10px;
+}
+
+.thumbnail_container {
+	display: flex;
+	flex-direction: row;
+}
+
+
+.thumbnail_details {
+	display: flex;
+	flex-direction: row;
+}
+
+.thumbnail_text {
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 12px;
+	margin: -6px 0 0 5px;
+}
+
+.thumbnail_title {
+	font-weight: bold;
+}
+
+.thumbnail_bottom_details {
+	margin: -5px 0px 0px 0px;
+	color: #696969;
 }

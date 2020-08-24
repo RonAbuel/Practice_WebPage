@@ -10,6 +10,7 @@
 .content_menu {
 	display: flex;
 	flex-direction: column;
+	width: 100%;
 }
 
 .top_menu {
@@ -64,7 +65,7 @@
 }
 
 .search_button {
-	margin: 5px 120px 15px -1px;
+	margin: 5px 210px 15px -1px;
 	height: 24px;
 	width: 75px;
 	padding: 2px;
@@ -138,4 +139,8 @@
 .thumbnail_bottom_details {
 	margin: -5px 0px 0px 0px;
 	color: #696969;
+}
+
+.line {
+	width: 100%;
 }

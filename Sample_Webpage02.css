@@ -37,12 +37,19 @@
 }
 
 .menu1 {
-	margin: 15px 10px 15px 10px;
+	padding: 10px 10px 10px 10px;
 	display: flex;
 	align-items: center;
 	font-family: Roboto, Arial, sans-serif;
 	font-size: 12px;
 }
+
+
+.side_list div.menu1:hover {
+	background-color: silver;
+
+}
+
 
 .texts {
 	font-weight: 400;
@@ -143,3 +150,6 @@
 }
 
 
+.thumbnail_details: hover {
+
+}

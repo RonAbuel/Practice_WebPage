@@ -63,26 +63,33 @@
 
 .search_bar {
 	width: 500px;
-	height: 28px;
+	height: 29px;
 	margin: 5px -3px 15px 95px;
-	border: 2px solid #aaaa;
-	border-radius: 3px;
+	border: 1px solid #aaaa;
+	border-radius: 2px;
 	padding: 0px 0px 0px 8px;
 
 }
 
 .search_button {
-	margin: 5px 210px 15px -1px;
-	height: 24px;
+	margin: 5px 210px 15px 0px;
+	height: 25px;
 	width: 0px;
 	padding: 2px 30px 2px 30px;
 	display: flex;
 	align-content: center;
 	justify-content: center;
 	background-color: #E6E6FA;
-	border: 2px solid #aaaa;
-	border-radius: 3px;
+	border: 1px solid #aaaa;
+	border-radius: 2px;
 	opacity: 0.75;
+}
+
+input.search_bar:focus {
+	border-color: blue;
+	z-index: 1;
+	opacity: 1;
+	box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.2);
 }
 
 div.search_button:hover {
@@ -109,7 +116,6 @@ div.search_button:hover {
 div.search_button:hover .hidden_search_text {
 	visibility: visible;
 }
-
 
 
 .lens {

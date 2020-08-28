@@ -47,7 +47,6 @@
 
 .side_list div.menu1:hover {
 	background-color: silver;
-
 }
 
 
@@ -69,20 +68,49 @@
 	border: 2px solid #aaaa;
 	border-radius: 3px;
 	padding: 0px 0px 0px 8px;
+
 }
 
 .search_button {
 	margin: 5px 210px 15px -1px;
 	height: 24px;
-	width: 75px;
-	padding: 2px;
+	width: 0px;
+	padding: 2px 30px 2px 30px;
 	display: flex;
 	align-content: center;
 	justify-content: center;
 	background-color: #E6E6FA;
 	border: 2px solid #aaaa;
 	border-radius: 3px;
+	opacity: 0.75;
 }
+
+div.search_button:hover {
+	opacity: 1;
+	box-shadow: 0 1px 0px 0 rgba(0, 0, 0, 0.1);
+}
+
+.hidden_search_text {
+	font-size: 13px;
+	font-family: Roboto, Arial, sans-serif;
+	text-align: center;
+	background-color: black;
+	color: white;
+	position: absolute;
+	top: 70px;
+	width: max-content;
+	padding: 5px 8px 8px 8px;
+	border-radius: 2px;
+	z-index: 1;
+	visibility: hidden;
+	opacity: 0.5;
+}
+
+div.search_button:hover .hidden_search_text {
+	visibility: visible;
+}
+
+
 
 .lens {
 	padding-top: 5px;
@@ -95,11 +123,35 @@
 	margin: 0px 0px 0px 0px;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
+
 
 .logo_images2 {
 	margin: 0 10px 10px 10px;
 }
+
+.hidden_text {
+	font-size: 13px;
+	font-family: Roboto, Arial, sans-serif;
+	text-align: center;
+	background-color: black;
+	color: white;
+	position: absolute;
+	top: 70px;
+	width: max-content;
+	padding: 5px 8px 8px 8px;
+	border-radius: 2px;
+	z-index: 1;
+	visibility: hidden;
+	opacity: 0.5;
+}
+
+div.menu2:hover .hidden_text {
+	visibility: visible;
+}
+
+
 
 #Account_icon {
 	width: 40px;

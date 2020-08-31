@@ -178,13 +178,89 @@ div.menu2:hover .hidden_text {
 
 .thumbnail {
 	margin: 10px;
+	position: relative;
 }
+
+.thumbnail_hover_icon1 {
+	position: absolute;
+	top: 6px;
+	left: 220px;
+	visibility: hidden;
+}
+
+.thumbnail_hover_icon2 {
+	position: absolute;
+	top: 38px;
+	left: 220px;
+	visibility: hidden;
+}
+
+.thumbnail_hover_icon3 {
+	position: absolute;
+	left: 235px;
+	visibility: hidden;
+	opacity: 0.8;
+}
+
+div.thumbnail1:hover .thumbnail_hover_icon1 {
+	visibility: visible;
+}
+
+div.thumbnail1:hover .thumbnail_hover_icon2 {
+	visibility: visible;
+}
+
+div.thumbnail1:hover .thumbnail_hover_icon3 {
+	visibility: visible;
+}
+
+div.thumbnail_hover3:hover .thumbnail_hover_icon3 {
+	opacity: 5.0;
+}
+
+.thumbnail_hover_text1 {
+	background-color: black;
+	color: white;
+	opacity: 0.9;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 6px 7px 5px 7px;
+	position: absolute;
+	top: 6px;
+	left: 120px;
+	visibility: hidden;
+}
+
+
+.thumbnail_hover_text2 {
+	background-color: black;
+	color: white;
+	opacity: 0.9;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 5px 7px 5px 7px;
+	position: absolute;
+	top: 38px;
+	left: 110px;
+	visibility: hidden;
+}
+
+div.thumbnail_hover1:hover .thumbnail_hover_text2 {
+	visibility: visible;
+}
+
+
 
 .thumbnail_container {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 }
+
+
+
 
 
 .thumbnail_details {

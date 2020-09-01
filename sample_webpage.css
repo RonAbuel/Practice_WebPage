@@ -1,0 +1,131 @@
+html {
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 12px;
+}
+
+.page_container {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.header_section {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.header_section .hamburger_menu .hamburger_icon {
+	padding: 10px 10px 10px 15px;
+}
+
+.header_section .youtube_logo .youtube_logo_icon {
+	padding: 3px 4px 4px 8px;
+	margin-right: 60px;
+}
+
+
+.header_section .search_bar_and_icons_section {
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px solid silver;
+	width: 100%;'
+	position: relative;
+}
+
+
+
+.header_section .search_bar_and_icons_section .search_bar {
+	padding: 0px 30px 0px 9%;
+	display: flex;
+	flex-direction: row;
+}
+
+
+.header_section .search_bar_and_icons_section .search_bar .search_input {
+	height: 28px;
+	border: 1px solid #aaaa;
+	border-radius: 2px;
+	margin: 5px 0 0 0;
+	width: 570px;
+
+}
+
+.header_section .search_bar_and_icons_section .search_bar .search_button {
+	margin: 5px 0px 15px -1px;
+	height: 27px;
+	width: 0px;
+	padding: 2px 30px 2px 30px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	background-color: #E6E6FA;
+	border: 1px solid #aaaa;
+	border-radius: 2px;
+	opacity: 0.75;
+}
+
+
+.header_section .search_bar_and_icons_section .search_bar .search_button .lens {
+	padding: 7px 5px 5px 5px;
+	height: 15px;
+	width: 15px;
+}
+
+.header_section .user_icons {
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	left: 82.5%;
+}
+
+.header_section .user_icons .user_function_icons {
+	display: flex;
+	flex-direction: row;
+}
+
+.user_img1 {
+	width: 25px;
+	height: 18px;
+	padding: 10px 12px 10px 12px;
+}
+
+.user_img2 {
+	width: 24px;
+	height: 27px;
+	padding: 7px 12px 10px 12px;
+}
+
+.user_img3 {
+	width: 23px;
+	height: 26px;
+	padding: 7px 12px 10px 12px;
+}
+
+.header_section .user_icons .user_icon {
+	padding-left: 12px;
+}
+
+
+
+
+
+.body_section {
+	display: flex;
+	flex-direction: row;
+	background-color: blue;
+	height: 200px;
+	width: 200px;
+}
+
+.body_section .side_menu {
+	background-color: green;
+	height: 50px;
+	width: 50px;
+}
+
+.body_section .body_contents {
+	background-color: yellow;
+	height: 50px;
+	width: 50px;
+}

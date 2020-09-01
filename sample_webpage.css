@@ -231,6 +231,13 @@ html {
 	flex-wrap: wrap;
 }
 
+.video_container {
+	position: relative;
+}
+
+div.video_container:hover .hover_icon {
+	visibility: visible;
+}
 
 .video_category {
 	font-size: 20px;
@@ -261,4 +268,75 @@ html {
 
 .gray_text {
 	color: #6e6d6d;
+}
+
+.hover_icons {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.hover_elements {
+
+}
+
+.hover_icon {
+	visibility: hidden;
+}
+
+.hover_icon1 {
+	position: absolute;
+	top: 2%;
+	left: 87%;
+
+}
+
+.hover_icon2 {
+	position: absolute;
+	top: 16%;
+	left: 87%;
+
+}
+
+.hover_text2 {
+	background-color: black;
+	color: white;
+	opacity: 0.8;
+	padding: 5px;
+	border-radius: 3px;
+	position: absolute;
+	visibility: hidden;
+
+}
+
+div.hover_icons:hover .hover_text2 {
+	visibility: visible;
+}
+
+.video_time {
+	background-color: black;
+	color: white;
+	opacity: 0.8;
+	padding: 8px;
+	position: absolute;
+	top: 54%;
+	left: 81%;
+	visibility: visible;
+}
+
+.hover_watch_later {
+	top: 2.5%;
+	left: 51%;
+
+}
+
+.hover_add_to_queue {
+	top: 16.25%;
+	left: 48%;
+
+}
+
+.hover_dot {
+	position: absolute;
+	top: 72%;
+
 }

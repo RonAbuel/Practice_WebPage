@@ -51,9 +51,15 @@ html {
 
 }
 
+.header_section .search_bar_and_icons_section .search_bar input.search_input:focus {
+	border-color: blue;
+	opacity: 1;
+	box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
 .header_section .search_bar_and_icons_section .search_bar .search_button {
 	margin: 5px 0px 15px -1px;
-	height: 27px;
+	height: 26px;
 	width: 0px;
 	padding: 2px 30px 2px 30px;
 	display: flex;
@@ -65,6 +71,27 @@ html {
 	opacity: 0.75;
 }
 
+.hover_text {
+	position: absolute;
+	background-color: black;
+	color: white;
+	opacity: 0.55;
+	padding: 8px;
+	border-radius: 3px;
+	top: 65px;
+	visibility: hidden;
+}
+
+.header_section .search_bar_and_icons_section .search_bar div.search_button:hover .hover_text {
+	visibility: visible;
+}
+
+
+
+.header_section .search_bar_and_icons_section .search_bar div.search_button:hover {
+	opacity: 1;
+	box-shadow: 0 1px 0px 0 rgba(0, 0, 0, 0.1);
+}
 
 .header_section .search_bar_and_icons_section .search_bar .search_button .lens {
 	padding: 7px 5px 5px 5px;
@@ -83,6 +110,11 @@ html {
 	display: flex;
 	flex-direction: row;
 }
+
+.header_section .user_icons .user_function_icons div.header_hover:hover .hover_text {
+	visibility: visible;
+}
+
 
 .user_img1 {
 	width: 25px;
@@ -119,6 +151,10 @@ html {
 .body_section .side_menu {
 	height: 100%;
 	width: 232px;
+}
+
+.body_section .side_menu div.side_option:hover {
+	background-color: silver;
 }
 
 .body_section .side_menu .side_menu_list {
@@ -184,7 +220,45 @@ html {
 }
 
 .body_section .body_contents {
-	background-color: yellow;
-	height: 50px;
-	width: 50px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 20px 0 20px;
+}
+
+.video_lists {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+
+.video_category {
+	font-size: 20px;
+	padding: 20px 0 20px 0;
+}
+
+.thumbnail {
+	height: 145px;
+	width: 252px;
+}
+
+.video_details_container {
+	display: flex;
+	flex-direction: row;
+	font-size: 14px;
+}
+
+.video_details {
+	padding: 7px 0 0 9px;
+	display: flex;
+	flex-direction: column;
+}
+
+.video_title {
+	font-weight: bold;
+	padding: 0 0 5px 0;
+}
+
+.gray_text {
+	color: #6e6d6d;
 }

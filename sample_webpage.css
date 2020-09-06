@@ -36,9 +36,10 @@ html {
 
 
 .header_section .search_bar_and_icons_section .search_bar {
-	padding: 0px 30px 0px 9%;
+	padding: 0px 13% 0px 9%;
 	display: flex;
 	flex-direction: row;
+	width: 58%;
 }
 
 
@@ -47,7 +48,7 @@ html {
 	border: 1px solid #aaaa;
 	border-radius: 2px;
 	margin: 5px 0 0 0;
-	width: 570px;
+	width: 100%;
 
 }
 
@@ -102,7 +103,6 @@ html {
 .header_section .user_icons {
 	display: flex;
 	flex-direction: row;
-	position: absolute;
 	left: 82.5%;
 }
 
@@ -113,6 +113,18 @@ html {
 
 .header_section .user_icons .user_function_icons div.header_hover:hover .hover_text {
 	visibility: visible;
+}
+
+.fa-search {
+	justify-content: center;
+	padding: 12px 10px 10px 10px;
+	font-size: 16px;
+	color: #6e6d6d;
+	visibility: hidden;
+}
+
+#hover_search {
+	visibility: hidden;
 }
 
 
@@ -137,6 +149,21 @@ html {
 .header_section .user_icons .user_icon {
 	padding-left: 12px;
 }
+
+@media (max-width: 600px){
+	.search_bar {
+		visibility: hidden;
+		padding: 0;
+		margin: 0;
+	}
+	.fa-search {
+		visibility: visible;
+	}
+	.header_section .user_icons .user_function_icons div.header_hover:hover #hover_search {
+		visibility: visible;
+	}
+}
+
 
 
 

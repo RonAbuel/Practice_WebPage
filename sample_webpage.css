@@ -150,11 +150,11 @@ html {
 	padding-left: 12px;
 }
 
-@media (max-width: 600px){
+@media (max-width: 650px){
 	.search_bar {
 		visibility: hidden;
 		padding: 0;
-		margin: 0;
+		width: 0%;
 	}
 	.fa-search {
 		visibility: visible;
@@ -177,7 +177,8 @@ html {
 
 .body_section .side_menu {
 	height: 100%;
-	width: 232px;
+	width: 285px;
+
 }
 
 .body_section .side_menu div.side_option:hover {
@@ -249,8 +250,9 @@ html {
 .body_section .body_contents {
 	display: flex;
 	flex-direction: column;
-	margin: 0 20px 0 20px;
+	padding: 0 20px 0 20px;
 	width: 100%;
+	background-color: #f6f6f6;
 }
 
 .video_lists {

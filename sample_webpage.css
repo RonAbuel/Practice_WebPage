@@ -17,11 +17,13 @@ html {
 
 .header_section .hamburger_menu .hamburger_icon {
 	padding: 10px 10px 10px 15px;
+	cursor: pointer;
 }
 
 .header_section .youtube_logo .youtube_logo_icon {
 	padding: 3px 4px 4px 8px;
 	margin-right: 60px;
+	cursor: pointer;
 }
 
 
@@ -70,6 +72,7 @@ html {
 	border: 1px solid #aaaa;
 	border-radius: 2px;
 	opacity: 0.75;
+	cursor: pointer;
 }
 
 .hover_text {
@@ -132,22 +135,26 @@ html {
 	width: 25px;
 	height: 18px;
 	padding: 10px 12px 10px 12px;
+	cursor: pointer;
 }
 
 .user_img2 {
 	width: 24px;
 	height: 27px;
 	padding: 7px 12px 10px 12px;
+	cursor: pointer;
 }
 
 .user_img3 {
 	width: 23px;
 	height: 26px;
 	padding: 7px 12px 10px 12px;
+	cursor: pointer;
 }
 
 .header_section .user_icons .user_icon {
-	padding-left: 12px;
+	padding-left: 10px;
+	cursor: pointer;
 }
 
 @media (max-width: 650px){
@@ -196,6 +203,7 @@ html {
 	display: flex;
 	padding: 8px;
 	font-size: 14px;
+	cursor: pointer;
 }
 
 .side_list_img {
@@ -250,7 +258,7 @@ html {
 .body_section .body_contents {
 	display: flex;
 	flex-direction: column;
-	padding: 0 20px 0 20px;
+	padding: 0 0px 0 20px;
 	width: 100%;
 	background-color: #f6f6f6;
 }
@@ -259,12 +267,14 @@ html {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	width: 100%;
 
 }
 
 .video_container {
 	position: relative;
 	margin: 0 8px 40px 8px;
+	cursor: pointer;
 }
 
 div.video_container:hover .hover_icon {

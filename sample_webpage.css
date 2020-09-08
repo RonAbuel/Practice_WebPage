@@ -185,8 +185,43 @@ html {
 .body_section .side_menu {
 	height: 100%;
 	width: 285px;
-
 }
+
+.toggle_side_menu {
+	width: 0px;
+}
+
+
+
+
+.side_menu2 {
+	width: 0;
+}
+
+.side_menu2_nav {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	text-align: center;
+	cursor: pointer;
+}
+
+.side_list_nav_img {
+	padding: 5px 0 5px 0px;
+}
+
+
+#Library2 {
+	height: 24px;
+}
+
+.body_section .side_menu2 div.side_menu2_nav:hover {
+	background-color: silver;
+}
+
+
+
 
 .body_section .side_menu div.side_option:hover {
 	background-color: silver;

@@ -198,8 +198,12 @@ html {
 	width: 0;
 }
 
+.toggle_hamburger_menu {
+	width: auto;
+}
+
 .side_menu2_nav {
-	padding: 10px;
+	padding: 10px 0 10px 0;
 	display: flex;
 	flex-direction: column;
 	align-content: center;

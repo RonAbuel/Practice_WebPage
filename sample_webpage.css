@@ -182,13 +182,9 @@ html {
 	height: 100%;
 }
 
-.body_section .side_menu {
+.side_menu {
 	height: 100%;
 	width: 285px;
-}
-
-.toggle_side_menu {
-	width: 0px;
 }
 
 
@@ -196,11 +192,18 @@ html {
 
 .side_menu2 {
 	width: 0;
+	background-color: white;
 }
 
 .toggle_hamburger_menu {
 	width: auto;
 }
+
+.toggle_hamburger_menu2 {
+	width: 0;
+}
+
+
 
 .side_menu2_nav {
 	padding: 10px 0 10px 0;

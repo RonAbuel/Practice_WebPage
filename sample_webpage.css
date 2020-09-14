@@ -15,10 +15,27 @@ html {
 	width: 100%;
 }
 
+.header_section .hamburger_menu {
+	position: relative;
+}
+
 .header_section .hamburger_menu .hamburger_icon {
-	padding: 10px 10px 10px 15px;
 	cursor: pointer;
 }
+
+.hamburger_icon_container {
+	border-radius: 50%;
+	padding: 8px 8px 8px 8px;
+	margin: 2px 2px 2px 7px;
+}
+
+.header_section .hamburger_menu div.hamburger_icon_container:active {
+	background-color: gray;
+	opacity: 0.3;
+}
+
+
+
 
 .header_section .youtube_logo .youtube_logo_icon {
 	padding: 3px 4px 4px 8px;
